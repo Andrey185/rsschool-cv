@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header class="header">
+    <div class="header-div">
+        <img src="ava.jpg" alt="not loaded" width="200">
+    </div>
+    <nav class="header-navigation navigation">
+        <ul class="navigation-ul">
+            <li class="navigation-li">Contacts</li>
+            <li class="navigation-li">About me</li>
+            <li class="navigation-li">Education</li>
+            <li class="navigation-li">Skills that i want to acquire</li>
+            <li class="navigation-li">Code</li>
+            <li class="navigation-li">Languages</li>
+        </ul>
+    </nav>
+</header>
+    <h1 class="title">Andrei Sharshniou</h1>
+    <main class="main">
+        <section class="section contacts">
+            <h2 class="contacts-title">contacts</h2>
+            <ul class="contacts-info ul">
+                <li class="ul-li">rimmon9@gmail.com</li>
+                <li class="ul-li">+375(29)6545521</li>
+                <li class="ul-li">Minsk,Belarus</li>
+            </ul>
+        </section>
+        <section class="section about-me">
+            <h2 class="about-me-title">about me</h2>
+            <p class="about-me-info">I am 35 years old. I have been studying the front-end on my own for about two months.
+                I have an engineering education and a mathematical mindset, so I’m used to puzzles in logic. 
+                I want to master a specialty in which only your personal qualities, skills and ambitions, not your mood, will affect 
+                the final result boss or other meteorological disasters.</p>
+        </section>
+        <section class="section education">
+            <h2 class="education-info">education</h2>
+            <p class="education-title">Graduated from BNTU, faculty of 'industrial and civil construction'. Worked in the specialty 
+                for more than ten years. I have no experience in programming, I do it myself under the supervision of a mentor</p>
+        </section>
+        <section class="section skills">
+            <h2 class="skills-title">skills that i want to acquire</h2>
+            <p class="skills-info">Html, Css, Javascript, Node Js</p>
+        </section>
+        <section class="section code">
+            <h2 class="code-title">code</h2>
+            <a href="https://www.codewars.com/users/Andrey185/completed">solved a tasks_codewars</a>
+            <pre>
+            <code class="code-info">function add(num1, num2) {
+                num1 = num1.toString().split('').reverse()
+                num2 = num2.toString().split('').reverse()
+                let result = [];
+            for (let i = Math.max(num1.length, num2.length)-1; i >= 0; i--) {
+                    result.push(Number(num1[i]||0) + Number(num2[i]||0))
+            }
+                return Number(result.join(''))
+            }</code>
+        </pre>
+        </section>
+        <section class="section">
+            <h2 class="languages-title">languages</h2>
+            <p class="languages-info">English : bellow intermediate<br>Russian : Native</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="footer-ul">
+            <li>2022</li>
+            <li>Andrei Sharshniou</li>
+            <li>
+            <a href="https://github.com/Andrey185"><img src="/github_original_wordmark_logo_icon_146506.svg" alt="don't load" width="80"></a>        
+            </li>
+            <li>
+                <a href="https://rs.school/js/"><img src="/rs_school_js.svg" alt="don't load" width="100"></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
