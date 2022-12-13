@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+}
+.header-div{
+    padding: 25px;
+}
+.navigation-ul{
+    display: flex;
+    gap: 25px;
+    padding: 25px 25px 0px 0px;
+    list-style-type: none
+}
+.title{
+    text-align: center;
+    margin-top: 25px;
+}
+.main{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 70px;
+}
+.contacts-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none
+}
+.about-me,
+.education{
+    max-width: 500px;
+}
+.code{
+    max-width: 800px;
+}
+.footer{
+    background-color: gainsboro;
+}
+.footer-ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+    padding: 25px;
+    list-style-type: none
+}
