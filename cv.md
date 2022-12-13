@@ -6,7 +6,7 @@
 ### *Graduated from BNTU*, faculty of 'industrial and civil construction'. Worked in the specialty for more than ten years. I have no experience in programming, I do it myself under the supervision of a mentor.
 
 ## the skills I want to acquire: <br>
-### *Html, Css, Javascript, Node Js*
+#### *Html, Css, Javascript, Node Js*
 
 ## **Languages** 
 
