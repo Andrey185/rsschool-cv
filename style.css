@@ -14,7 +14,7 @@ html{
     background-color: gainsboro;
 }
 .header-div{
-    padding: 25px;
+    padding: 35px;
 }
 .navigation-ul{
     display: flex;
@@ -56,11 +56,10 @@ html{
 .footer{
     background-color: gainsboro;
 }
-.footer-ul{
+.footer-div{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 25px;
     padding: 25px;
-    list-style-type: none
 }
